@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nilis24.github.io/tourism-promotion-website",
+  "homepage": "https://nilis24.github.io/tourism-promotion-website/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
