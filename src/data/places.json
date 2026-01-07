@@ -1,0 +1,176 @@
+[
+  {
+    "slug": "atomium",
+    "content": {
+      "name": "Atomium",
+      "lat": "50.894959877664526",
+      "lon": "4.341543968807613",
+      "description": "The Atomium is Brussels most iconic landmark, built for the 1958 World Expo. It represents an iron crystal magnified 165 billion times and offers panoramic views, exhibitions, and cultural spaces.",
+      "video": "https://www.youtube.com/embed/uyOSwMFYGvE",
+      "additional_info": [
+        {
+          "name": "Built for Expo 58",
+          "description": "The Atomium was created for the 1958 Brussels World's Fair and symbolizes scientific progress and optimism."
+        },
+        {
+          "name": "Panoramic views",
+          "description": "The top sphere offers one of the best panoramic views over Brussels."
+        },
+        {
+          "name": "Unique design",
+          "description": "Designed by engineer André Waterkeyn, it is a masterpiece of modernist architecture."
+        }
+      ],
+      "gallery": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/cf/Brussels_-_Atomium_2022.jpg",
+        "https://agendabrussels2.imgix.net/3a9f1c5cb094ef700c47cab09818e0e2b4b445b5.jpg?w=1200&h=664&fit=clips",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Brussels_Atomium_under_construction_-0395.jpg/500px-Brussels_Atomium_under_construction_-0395.jpg"
+      ]
+    }
+  },
+  {
+    "slug": "japanese-tower-laeken",
+    "content": {
+      "name": "Japanese Tower of Laeken",
+      "lat": "50.893055485631116",
+      "lon": "4.3615168969204055",
+      "description": "The Japanese Tower is a five-storey pagoda built in the early 20th century by order of King Leopold II. It reflects Japan-inspired architecture and forms part of the Museums of the Far East.",
+      "video": "https://www.youtube.com/embed/QFJbtsGg3PM?si=E77W_Ru0g1GEBRMx",
+      "additional_info": [
+        {
+          "name": "Asian influence",
+          "description": "Inspired by traditional Japanese pagodas and decorative arts."
+        },
+        {
+          "name": "Museums of the Far East",
+          "description": "The tower belongs to a complex including the Chinese Pavilion."
+        },
+        {
+          "name": "Royal initiative",
+          "description": "Commissioned by King Leopold II after visiting the Paris World Fair."
+        }
+      ],
+      "gallery": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/af/Japanse_Toren-Japanese_Tower_-_panoramio.jpg",
+        "https://as2.ftcdn.net/jpg/02/83/78/41/1000_F_283784168_am6BG7RPln10kQGGY2I6RhihO2HjypbO.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Japanese_Tower_-_Royal_Castle_of_Laeken_-_Brussels%2C_Belgium_-_DSC07145.jpg/2560px-Japanese_Tower_-_Royal_Castle_of_Laeken_-_Brussels%2C_Belgium_-_DSC07145.jpg"
+      ]
+    }
+  },
+  {
+    "slug": "royal-palace-brussels",
+    "content": {
+      "name": "Royal Palace of Brussels",
+      "lat": "50.8420669327432",
+      "lon": "4.362270860126819",
+      "description": "The Royal Palace of Brussels is the official palace of the Belgian monarch, used for official events and ceremonies. It is located in the centre of Brussels near the Royal Park.",
+      "video": "https://www.youtube.com/embed/AhnnZGjctGo?si=xEPboiiZYFTdfU4c",
+      "additional_info": [
+        {
+          "name": "Official palace",
+          "description": "Used for state receptions, audiences, and official events."
+        },
+        {
+          "name": "Open to the public",
+          "description": "The palace opens to visitors during summer months."
+        },
+        {
+          "name": "City center",
+          "description": "Located next to the Royal Park and historic centre."
+        }
+      ],
+      "gallery": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj2rsHFlIU0iehlPcWy17hJrCzY6sxpYdP-g&s",
+        "https://agendabrussels2.imgix.net/8abb9d5db096b1eccc63f57fb197424f23e71062.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS73Nib1GVI6f-KQVV2-IDbAXG7I3HikiIOrA&s"
+      ]
+    }
+  },
+  {
+    "slug": "stoclet-palace",
+    "content": {
+      "name": "Stoclet Palace",
+      "lat": "50.83509034425758",
+      "lon": "4.416089739889246",
+      "description": "Stoclet Palace is a UNESCO World Heritage Site and a masterpiece of early modern architecture designed by Josef Hoffmann.",
+      "video": "https://www.youtube.com/embed/l68Xw12SNmw?si=hEXQd0X80eeSd6kP",
+      "additional_info": [
+        {
+          "name": "UNESCO World Heritage",
+          "description": "Recognized for its architectural and artistic importance."
+        },
+        {
+          "name": "Art & Design",
+          "description": "Interior artworks and furniture by leading Secession artists."
+        },
+        {
+          "name": "Private residence",
+          "description": "The palace is not open to the public."
+        }
+      ],
+      "gallery": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMapRmVMX6vn4JDpoAp8i-q7MKaZlMO51cNg&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9z9MJ0H275RiGnQEGf6p1ymngvGHLSGqaqA&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhJMjKlGSHjU3M6CO7hx7_B4ntrVs55YFzuw&s"
+      ]
+    }
+  },
+  {
+    "slug": "cathedral-st-michael-st-gudula",
+    "content": {
+      "name": "Cathedral of St. Michael and St. Gudula",
+      "lat": "50.847928593740164",
+      "lon": "4.360160426398321",
+      "description": "This Gothic cathedral is one of Brussels’ most important religious buildings, known as a national co-cathedral used for royal ceremonies and historic events.",
+      "video": "https://www.youtube.com/embed/lacmOA77R5g?si=PfcZQOe-3Vfobktt",
+      "additional_info": [
+        {
+          "name": "Gothic architecture",
+          "description": "A prime example of Brabantine Gothic style."
+        },
+        {
+          "name": "Royal ceremonies",
+          "description": "Used for Belgian royal weddings and state funerals."
+        },
+        {
+          "name": "Organ concerts",
+          "description": "Home to famous pipe organ concerts."
+        }
+      ],
+      "gallery": [
+        "https://traveltoeat.com/wp-content/uploads/2013/07/wpid-Photo-Jul-15-2013-643-AM.jpg",
+        "https://d15ldvyocwqu5y.cloudfront.net/images/uploaded-new/223509",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQasi75eEL-Z4tkh9Q4bDNivcoo4hKnqD-_yw&s"
+      ]
+    }
+  },
+  {
+    "slug": "parc-du-cinquantenaire",
+    "content": {
+      "name": "Parc du Cinquantenaire",
+      "lat": "50.841430233892346",
+      "lon": "4.390499390816094",
+      "description": "Parc du Cinquantenaire is a large public park in Brussels with a monumental arch and museums, originally built to commemorate Belgium’s 50th anniversary of independence.",
+      "video": "https://www.youtube.com/embed/S21rsAzP0Rk?si=FDM25emV9stzetPf",
+      "additional_info": [
+        {
+          "name": "Triumphal Arch",
+          "description": "One of the most recognizable monuments in the park."
+        },
+        {
+          "name": "Museums",
+          "description": "Home to the Royal Military Museum and AutoWorld."
+        },
+        {
+          "name": "Park space",
+          "description": "Popular for strolls, picnics, and events."
+        }
+      ],
+      "gallery": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjsB16N_ZYy8EndG8F-12nSVGam51SGbAFaw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDTTjUTxMZILaPKyMTVsQIUXRVySs3apmMPA&s",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b8/Parc_du_Cinquantenaire_-_Bruxelles.jpg"
+      ]
+    }
+  }
+]

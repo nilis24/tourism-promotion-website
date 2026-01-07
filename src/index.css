@@ -1,0 +1,313 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+/* ---------------------------- */
+/* Tailwind v4 CSS‑first config */
+/* ---------------------------- */
+@theme {
+  /* Fonts */
+  --font-display: "Playfair Display", serif;
+  --font-body: Inter, sans-serif;
+
+  /* Colors */
+  --border: hsl(var(--border));
+  --input: hsl(var(--input));
+  --ring: hsl(var(--ring));
+  --background: hsl(var(--background));
+  --foreground: hsl(var(--foreground));
+
+  --primary: hsl(var(--primary));
+  --primary-foreground: hsl(var(--primary-foreground));
+
+  --secondary: hsl(var(--secondary));
+  --secondary-foreground: hsl(var(--secondary-foreground));
+
+  --destructive: hsl(var(--destructive));
+  --destructive-foreground: hsl(var(--destructive-foreground));
+
+  --muted: hsl(var(--muted));
+  --muted-foreground: hsl(var(--muted-foreground));
+
+  --accent: hsl(var(--accent));
+  --accent-foreground: hsl(var(--accent-foreground));
+
+  --popover: hsl(var(--popover));
+  --popover-foreground: hsl(var(--popover-foreground));
+
+  --card: hsl(var(--card));
+  --card-foreground: hsl(var(--card-foreground));
+
+  /* Sidebar tokens */
+  --sidebar-background: hsl(var(--sidebar-background));
+  --sidebar-foreground: hsl(var(--sidebar-foreground));
+  --sidebar-border: hsl(var(--sidebar-border));
+  --sidebar-ring: hsl(var(--sidebar-ring));
+  --sidebar-primary: hsl(var(--sidebar-primary));
+  --sidebar-primary-foreground: hsl(var(--sidebar-primary-foreground));
+  --sidebar-accent: hsl(var(--sidebar-accent));
+  --sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
+
+  /* Custom palette */
+  --gold: hsl(var(--gold));
+  --gold-dark: hsl(var(--gold-dark));
+
+  --navy: hsl(var(--navy));
+  --navy-light: hsl(var(--navy-light));
+
+  --cream: hsl(var(--cream));
+  --cream-dark: hsl(var(--cream-dark));
+
+  --burgundy: hsl(var(--burgundy));
+  --bronze: hsl(var(--bronze));
+
+  /* Border radius tokens */
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+
+  /* Accordion animations */
+  --accordion-down: accordion-down 0.2s ease‑out;
+  --accordion-up: accordion-up 0.2s ease‑out;
+}
+
+@layer base {
+  :root {
+    /* Brussels-inspired warm palette */
+    --background: 45 30% 97%;
+    --foreground: 25 30% 12%;
+
+    --card: 45 25% 95%;
+    --card-foreground: 25 30% 12%;
+
+    --popover: 45 25% 95%;
+    --popover-foreground: 25 30% 12%;
+
+    /* Rich golden amber - Belgian beer/chocolate inspiration */
+    --primary: 35 85% 45%;
+    --primary-foreground: 45 30% 98%;
+
+    /* Soft cream */
+    --secondary: 40 30% 92%;
+    --secondary-foreground: 25 30% 15%;
+
+    /* Muted warm tones */
+    --muted: 35 20% 90%;
+    --muted-foreground: 25 15% 45%;
+
+    /* Deep burgundy accent */
+    --accent: 15 70% 35%;
+    --accent-foreground: 45 30% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 35 25% 85%;
+    --input: 35 25% 85%;
+    --ring: 35 85% 45%;
+
+    --radius: 0.75rem;
+
+    /* Custom Brussels tokens */
+    --gold: 42 90% 55%;
+    --gold-dark: 35 85% 35%;
+    --navy: 220 45% 20%;
+    --navy-light: 220 35% 35%;
+    --cream: 45 35% 96%;
+    --cream-dark: 40 25% 88%;
+    --burgundy: 350 50% 35%;
+    --bronze: 30 50% 40%;
+
+    /* Gradients */
+    --gradient-gold: linear-gradient(135deg, hsl(42 90% 55%) 0%, hsl(35 85% 45%) 50%, hsl(30 75% 38%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsla(25 30% 12% / 0.4) 0%, hsla(25 30% 12% / 0.7) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(45 25% 95%) 0%, hsl(40 20% 90%) 100%);
+
+    /* Shadows */
+    --shadow-gold: 0 10px 40px -10px hsla(35 85% 45% / 0.4);
+    --shadow-elegant: 0 25px 50px -12px hsla(25 30% 12% / 0.15);
+    --shadow-soft: 0 4px 20px -4px hsla(25 30% 12% / 0.1);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 25 30% 8%;
+    --foreground: 45 30% 95%;
+
+    --card: 25 25% 12%;
+    --card-foreground: 45 30% 95%;
+
+    --popover: 25 25% 12%;
+    --popover-foreground: 45 30% 95%;
+
+    --primary: 42 90% 55%;
+    --primary-foreground: 25 30% 8%;
+
+    --secondary: 25 20% 18%;
+    --secondary-foreground: 45 30% 95%;
+
+    --muted: 25 20% 20%;
+    --muted-foreground: 35 15% 60%;
+
+    --accent: 15 60% 50%;
+    --accent-foreground: 45 30% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 25 20% 20%;
+    --input: 25 20% 20%;
+    --ring: 42 90% 55%;
+    
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .text-gradient-gold {
+    background: var(--gradient-gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-gradient-gold {
+    background: var(--gradient-gold);
+  }
+
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .shadow-gold {
+    box-shadow: var(--shadow-gold);
+  }
+
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+}
+
+@layer utilities {
+  /* Animations */
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+
+  @keyframes fade-up {
+    0% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes scale-in {
+    0% { opacity: 0; transform: scale(0.95); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+
+  @keyframes slide-in-left {
+    0% { opacity: 0; transform: translateX(-30px); }
+    100% { opacity: 1; transform: translateX(0); }
+  }
+
+  @keyframes slide-in-right {
+    0% { opacity: 0; transform: translateX(30px); }
+    100% { opacity: 1; transform: translateX(0); }
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-shimmer {
+    background: linear-gradient(90deg, transparent, hsla(42, 90%, 55%, 0.3), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+  }
+
+  .animate-fade-up {
+    animation: fade-up 0.8s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scale-in 0.6s ease-out forwards;
+  }
+
+  .animate-slide-left {
+    animation: slide-in-left 0.8s ease-out forwards;
+  }
+
+  .animate-slide-right {
+    animation: slide-in-right 0.8s ease-out forwards;
+  }
+
+  .animation-delay-100 { animation-delay: 100ms; }
+  .animation-delay-200 { animation-delay: 200ms; }
+  .animation-delay-300 { animation-delay: 300ms; }
+  .animation-delay-400 { animation-delay: 400ms; }
+  .animation-delay-500 { animation-delay: 500ms; }
+  .animation-delay-600 { animation-delay: 600ms; }
+
+  /* Hover effects */
+  .hover-lift {
+    @apply transition-all duration-300;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-elegant);
+  }
+
+  .hover-glow:hover {
+    box-shadow: var(--shadow-gold);
+  }
+
+  /* Glass effect */
+  .glass {
+    backdrop-filter: blur(12px);
+    background: hsla(45, 30%, 97%, 0.8);
+  }
+
+  .glass-dark {
+    backdrop-filter: blur(12px);
+    background: hsla(25, 30%, 12%, 0.85);
+  }
+}
